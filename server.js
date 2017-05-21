@@ -7,9 +7,9 @@ const path = require('path');
 const app = express();
 
 app.get('/', function (req, res) {
-    res.send('shopping');
-    // res.send('restaurant');
-    // res.send('chemist');
+    // res.send('shopping');
+    res.send('restaurant');
+    // res.send('pharmacy');
 })
 
 app.listen(3000, function () {
